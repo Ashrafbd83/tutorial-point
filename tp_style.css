@@ -51,31 +51,77 @@ ul li a:hover {
   color: #fff !important;
 }
 .content_form label {
-  width:100%;
+  width: 100%;
   border: 2px solid var(--bs-green-1) !important;
 }
-.content_form label i{
-font-size:1.3rem
+.content_form label i {
+  font-size: 1.3rem;
 }
 .content_form input {
-  width:95%;
+  width: 95%;
   border: 0;
 }
-.nav_second_2{
-width:100%;
-height:4rem;
-justify-content: center;
+.content_form input:checked {
+  border: 0;
 }
-.nav_second_2 a{
+.nav_second_2 {
+  width: 100%;
+  height: 4rem;
+  justify-content: center;
+}
+.nav_second_2 a {
   line-height: 1.3rem;
   font-size: 1.2rem;
 }
-.fa-cogs::before{
+.fa-cogs::before {
   content: "\f085";
 }
 
-.big h1::before{
-  content:"";
-  background-image:url("/img/brash.jpg");
-  position:absolute;
+.big h1::before {
+  content: "";
+  background-image: url("/img/brash.jpg");
+  position: absolute;
+}
+
+.circle {
+  position: absolute;
+  top: 3.5rem;
+  right:0;
+  width: 400px;
+  height: 400px;
+  background: var(--bs-primary);
+  border-radius: 140px 200px 120px 220px;
+  overflow:hidden;
+}
+.content_picture {
+  position: absolute;
+  top: 0;
+  right: 10%;
+  overflow:hidden;
+}
+.content_sm1 {
+  width: 50px;
+  height: 50px;
+}
+.btn-green {
+  background-color: var(--bs-green-1) !important;
+  color: #fff !important;
+}
+.btn-green:hover {
+  background-color: var(--bs-gray-300) !important;
+  color: var(--bs-green-1) !important;
+}
+
+
+.box-sm1{
+  background-color: rgba(247, 195, 46,.3) !important;
+}
+.box-sm2{
+  background-color: rgba( 214, 41, 62,.3) !important;
+}
+.box-sm3{
+  background-color: rgba(111, 66, 193,.3) !important;
+}
+.box-sm4{
+  background-color: rgba(253, 126, 20,.3) !important;
 }
