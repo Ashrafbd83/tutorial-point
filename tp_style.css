@@ -125,3 +125,11 @@ ul li a:hover {
 .box-sm4{
   background-color: rgba(253, 126, 20,.3) !important;
 }
+
+.catagory_card{
+  background-color: rgba(126, 170, 224, 0.1) !important;
+  border:non;
+}
+.catagory_card i{
+border:1px solid red;
+}
