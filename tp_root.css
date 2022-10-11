@@ -86,4 +86,26 @@ li {
 }
 
 
+.font_size_1{
+  font-size:1.rem!important;
+}
+.font_size_2{
+  font-size:0.8rem!important;
+}
+
+.font_size_3{
+  font-size:0.6rem!important;
+}
+
+.font_size_4{
+  font-size:0.4rem!important;
+}
+
+.font_size_5{
+  font-size:0.3rem!important;
+}
+
+.font_size_6{
+  font-size:0.2rem!important;
+}
 

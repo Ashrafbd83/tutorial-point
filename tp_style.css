@@ -130,6 +130,36 @@ ul li a:hover {
   background-color: rgba(126, 170, 224, 0.1) !important;
   border:non;
 }
-.catagory_card i{
-border:1px solid red;
+.catagory_card_bg{
+  background-color: rgba(168, 231, 218, 0.3) !important;
+  transition: 0.9s !important;
+}
+.catagory_card_bg:hover  .comon_p{
+  color: var(--bs-green-1) !important;
+}
+
+.prime_line{
+  width:80%;
+  height:1px;
+  background:rgb(212, 209, 209);
+  margin:1.2rem auto;
+}
+.prime_card_bg{
+  background-color: rgb(187, 190, 187) !important;
+  transition: 0.9s !important;
+}
+
+.tutorial_point h6:hover {
+  color: var(--bs-green-1) !important;
+}
+
+.card-title:hover{
+  color: var(--bs-green-1) !important;
+}
+.prime_box:hover{
+  box-shadow: 5px 8px 8px #bfbfbf;
+}
+.c_button:hover{
+  background-color: var(--bs-green-1) !important;
+  color: var(--bs-body-bg) !important;
 }
