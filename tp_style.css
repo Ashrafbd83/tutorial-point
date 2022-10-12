@@ -170,3 +170,13 @@ ul li a:hover {
   background-color: var(--bs-green-1) !important;
   color: var(--bs-body-bg) !important;
 }
+
+.tutorial_glance:hover i{
+  color: var(--bs-green-1) !important;
+}
+.strat_line{
+  height:1px;
+  width:100%;
+  background:gray;
+  margin-bottom: 2rem;
+}

@@ -109,3 +109,8 @@ li {
   font-size:0.2rem!important;
 }
 
+.bg-gray-300{
+  background-color:var(--bs-gray-200);
+ 
+}
+<i class="fa-solid fa-globe"></i>
