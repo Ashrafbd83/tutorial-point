@@ -134,6 +134,13 @@ ul li a:hover {
   background-color: rgba(168, 231, 218, 0.3) !important;
   transition: 0.9s !important;
 }
+.comon_p{
+  font-weight: 300;
+  color: gray;
+}
+.comon_p:hover{
+  color: var(--bs-green-1) !important;
+}
 .catagory_card_bg:hover  .comon_p{
   color: var(--bs-green-1) !important;
 }
